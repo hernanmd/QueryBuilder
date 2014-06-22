@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "HernanMoralesDurand 6/21/2014 22:19",
+	"super" : "Object",
+	"category" : "QueryBuilder-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"displayName",
+		"type",
+		"propertyName",
+		"explanation"
+	],
+	"name" : "QBProperty",
+	"type" : "normal"
+}

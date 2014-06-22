@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "HernanMoralesDurand 6/20/2014 21:29",
+	"super" : "Object",
+	"category" : "QueryBuilder-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Comparators",
+		"MagnitudeComparators",
+		"StringComparators"
+	],
+	"instvars" : [
+		"selector",
+		"description"
+	],
+	"name" : "QBPropertyComparator",
+	"type" : "normal"
+}

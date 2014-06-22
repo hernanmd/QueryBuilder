@@ -1,0 +1,4 @@
+testing
+isValidProperty
+
+	^ self notNil

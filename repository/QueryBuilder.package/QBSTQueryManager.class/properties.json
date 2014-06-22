@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "QBQueryManager",
+	"category" : "QueryBuilder-Smalltalk",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QBSTQueryManager",
+	"type" : "normal"
+}
