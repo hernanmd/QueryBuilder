@@ -1,0 +1,4 @@
+*querybuilder
+isValidAsQuery
+
+	^ self notEmpty
