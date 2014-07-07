@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "GrowableSearchList",
+	"category" : "QueryBuilder-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QBGrowableList",
+	"type" : "normal"
+}

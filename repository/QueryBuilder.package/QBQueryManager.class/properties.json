@@ -11,7 +11,8 @@
 		"builder",
 		"parseResults",
 		"settingCleanResults",
-		"results"
+		"results",
+		"newQuery"
 	],
 	"name" : "QBQueryManager",
 	"type" : "normal"

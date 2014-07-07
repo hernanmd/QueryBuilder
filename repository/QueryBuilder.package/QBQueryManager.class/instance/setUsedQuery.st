@@ -1,0 +1,4 @@
+accessing
+setUsedQuery
+
+	newQuery := false

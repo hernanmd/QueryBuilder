@@ -1,0 +1,4 @@
+accessing
+setNewQuery
+
+	newQuery := true.

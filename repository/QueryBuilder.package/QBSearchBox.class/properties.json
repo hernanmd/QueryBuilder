@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TripletSearchBox",
+	"category" : "QueryBuilder-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QBSearchBox",
+	"type" : "normal"
+}
