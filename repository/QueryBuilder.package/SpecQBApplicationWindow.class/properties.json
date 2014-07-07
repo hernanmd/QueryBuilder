@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposableModel",
+	"category" : "QueryBuilder-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"mainToolbar",
+		"growableList",
+		"toolbar",
+		"newQueryStatus"
+	],
+	"name" : "SpecQBApplicationWindow",
+	"type" : "normal"
+}

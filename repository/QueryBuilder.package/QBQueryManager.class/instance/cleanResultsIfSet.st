@@ -3,4 +3,4 @@ cleanResultsIfSet
 	" Private - Clean results if set "
 	
 	self settingCleanResults ifTrue: [ 
-		self results: OrderedCollection new ]
+		self results: nil ]

@@ -1,4 +1,0 @@
-accessing
-setUsedQuery
-
-	newQuery := false

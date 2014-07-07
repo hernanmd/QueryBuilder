@@ -1,4 +1,4 @@
 accessing
 setNewQuery
 
-	newQuery := true.
+	newQueryStatus := true
