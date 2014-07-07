@@ -1,0 +1,4 @@
+accessing
+setSavedResults
+
+	savedResults := true

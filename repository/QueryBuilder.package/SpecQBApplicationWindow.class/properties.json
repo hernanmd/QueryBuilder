@@ -9,7 +9,9 @@
 		"mainToolbar",
 		"growableList",
 		"toolbar",
-		"newQueryStatus"
+		"newQueryStatus",
+		"savedResults",
+		"savedQueries"
 	],
 	"name" : "SpecQBApplicationWindow",
 	"type" : "normal"
