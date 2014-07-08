@@ -8,7 +8,7 @@ baseline01: spec
 		spec project: 'SpecGrowableList' with: [
 				spec
 					className: #ConfigurationOfSpecGrowableList;
-					versionString: #'stable';
+					versionString: #'development';
 					repository: 'http://smalltalkhub.com/mc/hernan/SpecGrowableList/main/' ].
 		spec package: #QueryBuilder with: [
 				spec requires: #('SpecGrowableList' ). ]. ].
