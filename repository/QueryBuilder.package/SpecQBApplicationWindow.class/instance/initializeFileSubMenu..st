@@ -6,4 +6,4 @@ initializeFileSubMenu: group
 			item
 				name: 'File';
 				icon: Smalltalk ui icons openIcon;
-				subMenu: self subMenu ].
+				subMenu: self subMenuForFile ].
