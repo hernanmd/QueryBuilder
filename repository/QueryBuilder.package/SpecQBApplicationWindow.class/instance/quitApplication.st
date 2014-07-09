@@ -1,4 +1,4 @@
-menu
+private
 quitApplication
 
 	self hasUnsavedQueries
@@ -6,4 +6,12 @@ quitApplication
 	self hasUnsavedResults
 		ifTrue: [ (self confirm: 'Save results?') ifTrue: [ self saveResults ] ].
 	(self confirm: 'Quit ' , self title , '?') 
-		ifTrue: [ self delete ]
+		ifTrue: [ 
+			" Part of the #quitApplicationHack "
+			self class removeSelector: #canDiscardEdits.
+			self delete. 
+			self askOkToClose: false ]
+		ifFalse: [ 
+			self quitApplicationHack.
+			self askOkToClose: true ].
+

@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ExecToolbar",
+	"name" : "SpecQBExecToolbar",
 	"type" : "normal"
 }
