@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 7/4/2014 03:16",
-	"super" : "OkToolbar",
+	"super" : "OkCancelToolbar",
 	"category" : "QueryBuilder-Spec",
 	"classinstvars" : [ ],
 	"pools" : [ ],

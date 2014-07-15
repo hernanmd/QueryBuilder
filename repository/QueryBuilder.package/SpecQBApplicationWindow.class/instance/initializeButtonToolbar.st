@@ -2,4 +2,6 @@ initialize
 initializeButtonToolbar
 
 	toolbar := self instantiate: SpecQBExecToolbar.
-	toolbar okAction: [ self execute ]
+	toolbar 
+		okAction: [ self execute ];
+		cancelAction: [ self quitApplication ].
