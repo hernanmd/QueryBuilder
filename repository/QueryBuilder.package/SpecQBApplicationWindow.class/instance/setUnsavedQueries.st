@@ -1,4 +1,0 @@
-accessing
-setUnsavedQueries
-
-	savedQueries := false
