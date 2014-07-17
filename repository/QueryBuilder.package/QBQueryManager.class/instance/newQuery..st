@@ -5,4 +5,6 @@ newQuery: tripletCollection
 	^ QBQuery new
 		property: tripletCollection first ;
 		operator: tripletCollection second;
-		value: tripletCollection third.
+		value: tripletCollection third;
+		validate;
+		yourself

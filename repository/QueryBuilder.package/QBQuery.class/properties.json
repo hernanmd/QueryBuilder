@@ -8,7 +8,8 @@
 	"instvars" : [
 		"property",
 		"operator",
-		"value"
+		"value",
+		"valid"
 	],
 	"name" : "QBQuery",
 	"type" : "normal"
