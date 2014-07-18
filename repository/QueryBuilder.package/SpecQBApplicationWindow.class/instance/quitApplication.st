@@ -1,8 +1,7 @@
 private
 quitApplication
 
-	self savedQueries
-		ifFalse: [ (self confirm: 'Save query?') ifTrue: [ self saveQuery] ].
+	self saveQuery: true.
 	self hasUnsavedResults
 		ifTrue: [ (self confirm: 'Save results?') ifTrue: [ self saveResults ] ].
 	(self confirm: 'Quit ' , self title , '?') 
