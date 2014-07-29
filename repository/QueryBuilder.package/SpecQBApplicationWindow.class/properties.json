@@ -1,14 +1,12 @@
 {
 	"commentStamp" : "",
-	"super" : "SpecApplicationWindow",
+	"super" : "SpecToolbarApplicationWindow",
 	"category" : "QueryBuilder-Spec",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"mainToolbar",
 		"growableList",
-		"toolbar",
 		"newQueryStatus",
 		"savedResults",
 		"savedQueries"

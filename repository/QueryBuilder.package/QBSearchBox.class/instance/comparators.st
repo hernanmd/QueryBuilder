@@ -1,4 +1,6 @@
 private
 comparators
 
-	^ QBPropertyComparator magnitudeComparators
+	^ self owner
+		ifNil: [ Array new ]
+		ifNotNil: [ self halt ]

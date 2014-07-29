@@ -1,0 +1,4 @@
+private
+comparators
+
+	^ QBPropertyComparator magnitudeComparators

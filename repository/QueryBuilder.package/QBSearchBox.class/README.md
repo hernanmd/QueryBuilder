@@ -1,2 +1,1 @@
-Assumes owner with a #queryManager
-
+Single row search box (not allowed to grow dynamically).
