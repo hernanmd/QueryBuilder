@@ -15,6 +15,11 @@ baseline02: spec
 				spec
 					className: #ConfigurationOfFixedDecimal;
 					versionString: #'stable';
-					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo30/main/' ].
+					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo30/main/' ];
+			project: 'SpecUIAddOns' with: [
+				spec
+					className: #ConfigurationOfSpecUIAddOns;
+					versionString: #'bleedingEdge';
+					repository: 'http://smalltalkhub.com/mc/hernan/SpecUIAddOns/main/' ].
 		spec package: #QueryBuilder with: [
-				spec requires: #('SpecGrowableList' 'FixedDecimal' ). ]. ].
+				spec requires: #('SpecGrowableList' 'FixedDecimal' 'SpecUIAddOns' ). ]. ].
