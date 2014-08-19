@@ -6,11 +6,6 @@ baseline02: spec
 		spec blessing: #'baseline'.
 		spec repository: 'http://smalltalkhub.com/mc/hernan/QueryBuilder/main/'.
 		spec 
-			project: 'SpecGrowableList' with: [
-				spec
-					className: #ConfigurationOfSpecGrowableList;
-					versionString: #'development';
-					repository: 'http://smalltalkhub.com/mc/hernan/SpecGrowableList/main/' ];
 			project: 'FixedDecimal' with: [
 				spec
 					className: #ConfigurationOfFixedDecimal;
@@ -22,4 +17,4 @@ baseline02: spec
 					versionString: #'bleedingEdge';
 					repository: 'http://smalltalkhub.com/mc/hernan/SpecUIAddOns/main/' ].
 		spec package: #QueryBuilder with: [
-				spec requires: #('SpecGrowableList' 'FixedDecimal' 'SpecUIAddOns' ). ]. ].
+				spec requires: #('FixedDecimal' 'SpecUIAddOns' ). ]. ].
