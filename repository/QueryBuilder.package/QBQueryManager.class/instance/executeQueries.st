@@ -5,4 +5,4 @@ executeQueries
 	Cursor execute showWhile: [ 
 		self cleanResultsIfSet.
 		self results: self executeQueryBuilder ].
-	^ results gather: #yourself
+	^ results flatCollect: #yourself
