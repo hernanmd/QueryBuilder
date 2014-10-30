@@ -1,0 +1,4 @@
+*QueryBuilder
+isValidForBinaryComparator: aSymbol
+
+	^ false
