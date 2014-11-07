@@ -1,5 +1,11 @@
 *QueryBuilder
 isValidForBinaryComparator: aSymbol
-	" Answer <true> if receiver is not empty and does not contain invalid characters for a binary comparison "
+	" See superimplementor's comment "
 	
-	^ self notEmpty and: [ (self findTokens: ', .;-!_[]*+-/' ) size = 1 ]
+	| tokenized |
+	
+	tokenized := self findTokens: ', .;-!_[]*+-/' .
+	" If we are a Number then we must be just one number (we are a BINARY comparator)"
+	^ (tokenized allSatisfy: #isNumeric)
+		ifTrue: [ self notEmpty and: [ tokenized size = 1 ] ]
+		ifFalse: [ self notEmpty ]
