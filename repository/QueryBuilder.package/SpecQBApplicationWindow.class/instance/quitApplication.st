@@ -2,8 +2,8 @@ private
 quitApplication
 
 	self saveQuery: true.
-	self hasUnsavedResults
-		ifTrue: [ (self confirm: 'Results not saved, if you close the application they will be lost. Do you want to save results?') ifTrue: [ self saveResults ] ].
+	self savedResults
+		ifFalse: [ (self confirm: 'Results not saved, if you close the application they will be lost. Do you want to save results?') ifTrue: [ self saveResults ] ].
 	(self confirm: 'Quit ' , self title , '?') 
 		ifTrue: [ self quitApplicationWindow ]
 		ifFalse: [ 
