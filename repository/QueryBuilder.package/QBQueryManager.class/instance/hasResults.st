@@ -2,4 +2,4 @@ testing
 hasResults
 	" Answer <true> if the receiver contains at least a result "
 	
-	^ self parseResults isEmpty not
+	^ self parseResults notEmpty
