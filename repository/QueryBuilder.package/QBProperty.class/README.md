@@ -1,4 +1,4 @@
-A MQBProperty represents an item into a list of query builder properties
+A QBProperty represents an item into a list of query builder properties
 
 Instance Variables
 	displayName:		<Object>
