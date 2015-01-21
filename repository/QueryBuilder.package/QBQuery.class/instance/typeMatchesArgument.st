@@ -6,5 +6,5 @@ typeMatchesArgument
 	
 	tokenized := self value findTokens: ',' .
 	^ (tokenized allSatisfy: #isNumeric)
-		ifTrue: [ tokenized allSatisfy: [ : v | v asNumber isKindOf: self propertyTypeClass ] ]
+		ifTrue: [ tokenized allSatisfy: [ : v | v asNumber isKindOf: Number ] ]
 		ifFalse: [ self value isKindOf: self propertyTypeClass ]
