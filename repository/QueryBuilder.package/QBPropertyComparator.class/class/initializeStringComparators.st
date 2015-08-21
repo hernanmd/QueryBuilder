@@ -3,9 +3,10 @@ initializeStringComparators
 	" Private - Initialize comparison selectors with descriptions "
 
 	StringComparators := OrderedCollection new: 35.
-	#(#beginsWith: 'Begins With (case-sensitive)'
-	#doesNotBeginsWith: 'Does Not Begins With  (case-sensitive)'
-	#endsWith: 'Ends With (case-sensitive)'
+	#(#beginsWith: 'Begins With'
+	#beginsWith:or:' Begins With ... Or ... '
+	#doesNotBeginsWith: 'Does Not Begins With'
+	#endsWith: 'Ends With'
 	#doesNotEndsWith: 'Does Not Ends With'
 	#includes: 'Contains'
 	#includesNot: 'Contains Not'
