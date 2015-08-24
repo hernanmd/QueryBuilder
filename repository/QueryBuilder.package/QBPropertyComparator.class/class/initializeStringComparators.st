@@ -4,7 +4,7 @@ initializeStringComparators
 
 	StringComparators := OrderedCollection new: 35.
 	#(#beginsWith: 'Begins With'
-	#beginsWith:or:' Begins With ... Or ... '
+	#beginsWith:or: 'Begins With ... Or ... '
 	#doesNotBeginsWith: 'Does Not Begins With'
 	#endsWith: 'Ends With'
 	#doesNotEndsWith: 'Does Not Ends With'
