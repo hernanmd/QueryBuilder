@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 9/26/2015 20:47",
+	"super" : "SpecGrowableListAppWindow",
+	"category" : "QueryBuilder-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QBAppWindow",
+	"type" : "normal"
+}
