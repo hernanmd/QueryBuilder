@@ -1,5 +1,5 @@
 menu
-saveQuery: quitBoolean
+saveOnQuit: quitBoolean
 	" Private - User requested to save the receiver's query in a query file "
 
 	self growableList hasValidQuery

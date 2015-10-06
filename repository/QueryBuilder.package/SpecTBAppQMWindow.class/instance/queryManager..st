@@ -1,3 +1,3 @@
 accessing
 queryManager: anObject
-	listManager := anObject
+	queryManager := anObject

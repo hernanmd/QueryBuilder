@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HernanMoralesDurand 9/26/2015 16:50",
+	"super" : "SpecQBApplicationWindow",
+	"category" : "QueryBuilder-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"queryManager"
+	],
+	"name" : "SpecTBAppQMWindow",
+	"type" : "normal"
+}

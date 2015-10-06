@@ -1,7 +1,7 @@
 initialization
 initializeWidgets
 
-	self initializeSearchBoxModels.
+	self initializeBoxModels.
 	validateTripletBlock := [ :t | self ok enabled: t isEmpty not ].
 	self initializePropertyList.
 	self initializeComparatorsField.

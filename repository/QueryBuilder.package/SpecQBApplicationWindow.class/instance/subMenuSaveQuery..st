@@ -5,4 +5,4 @@ subMenuSaveQuery: item
 		name: 'Save Query...';
 		icon: Smalltalk ui icons smallSaveIcon;
 		shortcut: $s command;
-		action: [ self saveQuery: false ]
+		action: [ self saveOnQuit: false ]

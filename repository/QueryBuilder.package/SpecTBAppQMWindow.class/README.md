@@ -1,4 +1,4 @@
-Growable list with query manager
+Application window with toolbar collaborating with a Query Manager.
 
 Instance Variables
 	queryManager:		<Object>

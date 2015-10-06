@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "SpecToolbarApplicationWindow",
+	"category" : "QueryBuilder-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"growableList",
+		"newQueryStatus",
+		"savedResults",
+		"savedQueries"
+	],
+	"name" : "SpecQBApplicationWindow",
+	"type" : "normal"
+}
