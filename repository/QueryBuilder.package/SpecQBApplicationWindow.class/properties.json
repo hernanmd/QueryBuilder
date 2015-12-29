@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "SpecToolbarApplicationWindow",
+	"super" : "SpcToolbarApplicationWindow",
 	"category" : "QueryBuilder-Spec",
 	"classinstvars" : [ ],
 	"pools" : [ ],

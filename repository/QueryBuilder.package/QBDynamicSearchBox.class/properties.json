@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 7/25/2014 19:05",
-	"super" : "DynamicSearchBox",
+	"super" : "SpcDynamicSearchBox",
 	"category" : "QueryBuilder-Spec",
 	"classinstvars" : [ ],
 	"pools" : [ ],

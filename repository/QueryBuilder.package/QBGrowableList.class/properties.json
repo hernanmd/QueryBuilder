@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 8/18/2014 20:48",
-	"super" : "GrowableSearchList",
+	"super" : "SpcGrowableSearchList",
 	"category" : "QueryBuilder-Spec",
 	"classinstvars" : [ ],
 	"pools" : [ ],
