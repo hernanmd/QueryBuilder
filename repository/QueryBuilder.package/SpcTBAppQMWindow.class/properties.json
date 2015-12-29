@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "HernanMoralesDurand 9/26/2015 16:50",
-	"super" : "SpecQBApplicationWindow",
+	"super" : "SpcQBApplicationWindow",
 	"category" : "QueryBuilder-Spec",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -8,6 +8,6 @@
 	"instvars" : [
 		"queryManager"
 	],
-	"name" : "SpecTBAppQMWindow",
+	"name" : "SpcTBAppQMWindow",
 	"type" : "normal"
 }
