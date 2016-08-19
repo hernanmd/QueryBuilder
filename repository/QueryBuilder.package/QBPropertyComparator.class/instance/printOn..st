@@ -2,5 +2,7 @@ printing
 printOn: aStream
 	" Private - See superimplementor's comment "
 	
-	aStream 
-		nextPutAll: self description
+	self description 
+		ifNotNilDo: [ : descriptionString | aStream nextPutAll: descriptionString ]
+		ifNil: [ super printOn: aStream ]
+	

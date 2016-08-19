@@ -2,7 +2,6 @@ printing
 printOn: aStream 
 	" Private - See superimplementor's comment "
 	
-	aStream
-		nextPut: $[;
-		nextPutAll: self displayName;
-		nextPut: $].
+	self displayName
+		ifNotNilDo: [ : displayString | aStream nextPutAll: self displayName between: $[ and: $] ]
+		ifNil: [ super printOn: aStream ]
