@@ -5,5 +5,5 @@ initializeFileSubMenu: group
 		addItem: [ :item | 
 			item
 				name: 'File';
-				icon: Smalltalk ui icons openIcon;
+				icon: #openIcon asIcon;
 				subMenu: self subMenuForFile ].

@@ -3,6 +3,6 @@ subMenuSaveQuery: item
 
 	item 
 		name: 'Save Query...';
-		icon: Smalltalk ui icons smallSaveIcon;
+		icon: #smallSaveIcon asIcon;
 		shortcut: $s command;
 		action: [ self saveOnQuit: false ]

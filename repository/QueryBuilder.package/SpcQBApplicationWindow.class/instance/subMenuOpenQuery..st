@@ -3,6 +3,6 @@ subMenuOpenQuery: item
 
 	item
 		name: 'Open Query...';
-		icon: Smalltalk ui icons openIcon;
+		icon: #openIcon asIcon;
 		shortcut: $q command;
 		action: [ self openQuery ]
