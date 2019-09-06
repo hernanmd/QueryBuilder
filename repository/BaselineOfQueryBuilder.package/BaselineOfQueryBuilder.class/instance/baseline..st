@@ -8,13 +8,13 @@ baseline: spec
 			spec 
 				blessing: #'baseline';
 				repository: 'github://hernanmd/QueryBuilder/repository';
-				baseline: 'FixedDecimal' with: [ spec repository: 'github://hernanmd/QueryBuilder/repository' ];
+				baseline: 'FixedDecimal' with: [ spec repository: 'github://hernanmd/FixedDecimal/repository' ];
 				baseline: 'SpecUIAddOns' with: [ spec repository: 'github://hernanmd/SpecUIAddOns/repository' ].
 					
 			spec package: #QueryBuilder with: [
 				spec requires: #('FixedDecimal' 'SpecUIAddOns') ].
 			
 			spec 
-				group: 'Core' 		with: #('QueryBuilder');
+				group: 'Core'           with: #('QueryBuilder');
 "				group: 'Tests'		with: #('QueryBuilder');"
 				group: 'default'	with: #('QueryBuilder') ].
