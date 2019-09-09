@@ -1,9 +1,9 @@
 initialize
 initializeFileSubMenu: group
-
 	group
 		addItem: [ :item | 
 			item
 				name: 'File';
-				icon: #openIcon asIcon;
-				subMenu: self subMenuForFile ].
+				icon:
+					(self iconNamed: #openIcon);
+				subMenu: self subMenuForFile ]

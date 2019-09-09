@@ -1,8 +1,8 @@
 menu
 subMenuSaveQuery: item
-
-	item 
+	item
 		name: 'Save Query...';
-		icon: #smallSaveIcon asIcon;
+		icon:
+			(self iconNamed: #smallSaveIcon);
 		shortcut: $s command;
 		action: [ self saveOnQuit: false ]
