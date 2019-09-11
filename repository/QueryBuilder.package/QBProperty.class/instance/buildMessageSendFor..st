@@ -2,6 +2,6 @@ accessing
 buildMessageSendFor: aMQBQueryBuilder
 
 	^ MessageSend
-		receiver: self name
+		receiver: self propertyName
 		selector: aMQBQueryBuilder operatorSelector
 		arguments: aMQBQueryBuilder value 

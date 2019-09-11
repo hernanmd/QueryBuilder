@@ -1,4 +1,4 @@
 accessing
-name: anObject
+propertyName: anObject
 
 	propertyName := anObject
